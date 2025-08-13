@@ -13,3 +13,5 @@ wheels/
 uv.lock
 
 site
+
+.DS_Store
