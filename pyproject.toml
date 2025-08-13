@@ -17,6 +17,13 @@ dependencies = [
     "scikit-image",
 ]
 
+[project.optional-dependencies]
+examples = [
+    "jupyter",
+    "matplotlib",
+    "scikit-image[data]",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/timmonko/urssi-package"
 "Documentation" = "https://timmonko.github.io/urssi-package/"
