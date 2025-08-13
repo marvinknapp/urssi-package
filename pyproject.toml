@@ -22,6 +22,9 @@ examples = [
     "jupyter",
     "matplotlib",
     "scikit-image[data]",
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings-python"
 ]
 
 [project.urls]

@@ -3,8 +3,10 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 from skimage.filters import threshold_otsu
 
+
 if TYPE_CHECKING:
     import numpy as np
+
 
 def threshold_otsu_or_minimum(
     img: np.ndarray,
