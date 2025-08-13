@@ -1,0 +1,12 @@
+site_name: urssi-package
+site_url: https://marvinknapp.github.io/urssi-package/
+repo_url: https://github.com/marvinknapp/urssi-package
+theme:
+  name: readthedocs # alternatives: readthedocs, material, cinder (after installing mkdocs-cinder)
+plugins:
+- search
+- mkdocstrings
+nav:
+  - Home: index.md
+  - Examples: examples.md
+  - Reference Functions: addlive.md
