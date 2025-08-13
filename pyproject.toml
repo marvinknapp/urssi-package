@@ -1,0 +1,33 @@
+[project]
+name = "urssi-package"
+dynamic = ["version"]
+description = "Minimal example of a Python package"
+readme = "README.md"
+authors = [
+    { name = "Tim Monko", email = "timmonko@gmail.com" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "scikit-image",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/timmonko/urssi-package"
+"Documentation" = "https://timmonko.github.io/urssi-package/"
+"Source Code" = "https://github.com/timmonko/urssi-package"
+"Bug Tracker" = "https://github.com/timmonko/urssi-package/issues"
+"User Support" = "https://github.com/timmonok/urssi-package/issues"
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+fallback_version = "0.0.0+nogit"
