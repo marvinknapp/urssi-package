@@ -51,6 +51,8 @@ def example_doctest_usage(a: int, b: int) -> int:
     Example function to demonstrate doctest usage and simple arithmetic.
     Test with `python -m doctest src/urssi_package/example.py -v`
 
+    Note: You need to use "Examples" **not** "Example" in the docstring for mkdocs to render it nicely.
+
     Args:
         a (int): First integer.
         b (int): Second integer.
@@ -58,7 +60,7 @@ def example_doctest_usage(a: int, b: int) -> int:
     Returns:
         int: The sum of a and b, or 42 if both are zero.
 
-    Example:
+    Examples:
         >>> example_doctest_usage(2, 3)
         5
         >>> example_doctest_usage(0, 0)
