@@ -26,6 +26,9 @@ docs = [
     "mkdocs-material",
     "mkdocstrings-python"
 ]
+tests = [
+    "pytest",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/timmonko/urssi-package"
@@ -41,3 +44,6 @@ build-backend = "hatchling.build"
 [tool.hatch.version]
 source = "vcs"
 fallback_version = "0.0.0+nogit"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
